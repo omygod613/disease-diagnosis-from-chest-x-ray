@@ -1,0 +1,868 @@
+pelican03 ~ 1000$ cd cs535/final_project/finalpj/
+pelican03 ~/cs535/final_project/finalpj 1001$ lock precnn yes-pretrain
+bash: lock: command not found
+pelican03 ~/cs535/final_project/finalpj 1002$ python train.py 
+Training data: 3878
+Test data: 1253
+Epoch 0/49
+----------
+train 41.15% Loss: 4.4508 AUC: 0.5451
+train 82.30% Loss: 4.2339 AUC: 0.5495
+train Loss: 4.2946 AUC: 0.5509
+
+Atelectasis: 0.5384 
+Effusion: 0.6002 
+Infiltration: 0.5142 
+
+test Loss: 4.1717 AUC: 0.5694
+
+Atelectasis: 0.5484 
+Effusion: 0.6000 
+Infiltration: 0.5600 
+
+
+Epoch 1/49
+----------
+train 41.15% Loss: 4.2322 AUC: 0.5647
+train 82.30% Loss: 4.1330 AUC: 0.5750
+train Loss: 4.1513 AUC: 0.5736
+
+Atelectasis: 0.5536 
+Effusion: 0.6339 
+Infiltration: 0.5334 
+
+test Loss: 4.1147 AUC: 0.5792
+
+Atelectasis: 0.5702 
+Effusion: 0.5988 
+Infiltration: 0.5686 
+
+
+Epoch 2/49
+----------
+train 41.15% Loss: 4.1526 AUC: 0.5869
+train 82.30% Loss: 4.1470 AUC: 0.5723
+train Loss: 4.1295 AUC: 0.5809
+
+Atelectasis: 0.5762 
+Effusion: 0.6334 
+Infiltration: 0.5329 
+
+test Loss: 4.1088 AUC: 0.5892
+
+Atelectasis: 0.5815 
+Effusion: 0.6055 
+Infiltration: 0.5808 
+
+
+Epoch 3/49
+----------
+train 41.15% Loss: 4.1405 AUC: 0.5887
+train 82.30% Loss: 4.0898 AUC: 0.5928
+train Loss: 4.0901 AUC: 0.5924
+
+Atelectasis: 0.5784 
+Effusion: 0.6570 
+Infiltration: 0.5418 
+
+test Loss: 4.0985 AUC: 0.5942
+
+Atelectasis: 0.5881 
+Effusion: 0.6140 
+Infiltration: 0.5805 
+
+
+Epoch 4/49
+----------
+train 41.15% Loss: 4.1314 AUC: 0.5953
+train 82.30% Loss: 4.0224 AUC: 0.6141
+train Loss: 4.0647 AUC: 0.6023
+
+Atelectasis: 0.5929 
+Effusion: 0.6555 
+Infiltration: 0.5584 
+
+test Loss: 4.0950 AUC: 0.5981
+
+Atelectasis: 0.5927 
+Effusion: 0.6146 
+Infiltration: 0.5869 
+
+
+Epoch 5/49
+----------
+train 41.15% Loss: 4.1056 AUC: 0.5971
+train 82.30% Loss: 4.0098 AUC: 0.6260
+train Loss: 4.0428 AUC: 0.6094
+
+Atelectasis: 0.6018 
+Effusion: 0.6695 
+Infiltration: 0.5569 
+
+test Loss: 4.0933 AUC: 0.6018
+
+Atelectasis: 0.6003 
+Effusion: 0.6196 
+Infiltration: 0.5856 
+
+
+Epoch 6/49
+----------
+train 41.15% Loss: 4.0942 AUC: 0.6086
+train 82.30% Loss: 4.0531 AUC: 0.6097
+train Loss: 4.0523 AUC: 0.6087
+
+Atelectasis: 0.6002 
+Effusion: 0.6682 
+Infiltration: 0.5578 
+
+test Loss: 4.0790 AUC: 0.6039
+
+Atelectasis: 0.5990 
+Effusion: 0.6217 
+Infiltration: 0.5910 
+
+
+Epoch 7/49
+----------
+train 41.15% Loss: 4.0796 AUC: 0.6104
+train 82.30% Loss: 4.0376 AUC: 0.6173
+train Loss: 4.0349 AUC: 0.6149
+
+Atelectasis: 0.6079 
+Effusion: 0.6726 
+Infiltration: 0.5641 
+
+test Loss: 4.0698 AUC: 0.6080
+
+Atelectasis: 0.6004 
+Effusion: 0.6271 
+Infiltration: 0.5964 
+
+
+Epoch 8/49
+----------
+train 41.15% Loss: 4.0707 AUC: 0.6113
+train 82.30% Loss: 4.0413 AUC: 0.6139
+train Loss: 4.0346 AUC: 0.6122
+
+Atelectasis: 0.6104 
+Effusion: 0.6713 
+Infiltration: 0.5547 
+
+test Loss: 4.0631 AUC: 0.6075
+
+Atelectasis: 0.6019 
+Effusion: 0.6292 
+Infiltration: 0.5912 
+
+
+Epoch 9/49
+----------
+train 41.15% Loss: 4.0481 AUC: 0.6206
+train 82.30% Loss: 3.9964 AUC: 0.6259
+train Loss: 3.9996 AUC: 0.6243
+
+Atelectasis: 0.6136 
+Effusion: 0.6913 
+Infiltration: 0.5680 
+
+test Loss: 4.0609 AUC: 0.6088
+
+Atelectasis: 0.6037 
+Effusion: 0.6318 
+Infiltration: 0.5910 
+
+
+Epoch 10/49
+----------
+train 41.15% Loss: 4.0289 AUC: 0.6263
+train 82.30% Loss: 4.0637 AUC: 0.6085
+train Loss: 4.0175 AUC: 0.6195
+
+Atelectasis: 0.6088 
+Effusion: 0.6776 
+Infiltration: 0.5721 
+
+test Loss: 4.0535 AUC: 0.6087
+
+Atelectasis: 0.6027 
+Effusion: 0.6312 
+Infiltration: 0.5922 
+
+
+Epoch 11/49
+----------
+train 41.15% Loss: 4.0693 AUC: 0.6182
+train 82.30% Loss: 4.0138 AUC: 0.6179
+train Loss: 4.0173 AUC: 0.6198
+
+Atelectasis: 0.6194 
+Effusion: 0.6776 
+Infiltration: 0.5625 
+
+test Loss: 4.0577 AUC: 0.6093
+
+Atelectasis: 0.6042 
+Effusion: 0.6337 
+Infiltration: 0.5900 
+
+
+Epoch 12/49
+----------
+train 41.15% Loss: 4.0296 AUC: 0.6207
+train 82.30% Loss: 3.9904 AUC: 0.6331
+train Loss: 3.9953 AUC: 0.6248
+
+Atelectasis: 0.6190 
+Effusion: 0.6865 
+Infiltration: 0.5688 
+
+test Loss: 4.0651 AUC: 0.6106
+
+Atelectasis: 0.6025 
+Effusion: 0.6364 
+Infiltration: 0.5929 
+
+
+Epoch 13/49
+----------
+train 41.15% Loss: 3.9883 AUC: 0.6388
+train 82.30% Loss: 4.0133 AUC: 0.6198
+train Loss: 3.9817 AUC: 0.6293
+
+Atelectasis: 0.6150 
+Effusion: 0.6884 
+Infiltration: 0.5845 
+
+test Loss: 4.0533 AUC: 0.6111
+
+Atelectasis: 0.6009 
+Effusion: 0.6383 
+Infiltration: 0.5942 
+
+
+Epoch 14/49
+----------
+train 41.15% Loss: 4.0312 AUC: 0.6248
+train 82.30% Loss: 3.9704 AUC: 0.6309
+train Loss: 3.9795 AUC: 0.6291
+
+Atelectasis: 0.6159 
+Effusion: 0.6919 
+Infiltration: 0.5796 
+
+test Loss: 4.0765 AUC: 0.6095
+
+Atelectasis: 0.6003 
+Effusion: 0.6392 
+Infiltration: 0.5890 
+
+
+Epoch 15/49
+----------
+train 41.15% Loss: 4.0243 AUC: 0.6299
+train 82.30% Loss: 3.9962 AUC: 0.6257
+train Loss: 3.9882 AUC: 0.6274
+
+Atelectasis: 0.6184 
+Effusion: 0.6893 
+Infiltration: 0.5744 
+
+test Loss: 4.1084 AUC: 0.6094
+
+Atelectasis: 0.6002 
+Effusion: 0.6403 
+Infiltration: 0.5876 
+
+
+Epoch 16/49
+----------
+train 41.15% Loss: 3.9852 AUC: 0.6414
+train 82.30% Loss: 3.9832 AUC: 0.6274
+train Loss: 3.9687 AUC: 0.6335
+
+Atelectasis: 0.6207 
+Effusion: 0.7037 
+Infiltration: 0.5762 
+
+test Loss: 4.0564 AUC: 0.6110
+
+Atelectasis: 0.6026 
+Effusion: 0.6397 
+Infiltration: 0.5908 
+
+
+Epoch 17/49
+----------
+train 41.15% Loss: 4.0310 AUC: 0.6305
+train 82.30% Loss: 3.9653 AUC: 0.6308
+train Loss: 3.9754 AUC: 0.6330
+
+Atelectasis: 0.6220 
+Effusion: 0.6920 
+Infiltration: 0.5850 
+
+test Loss: 4.0447 AUC: 0.6126
+
+Atelectasis: 0.6045 
+Effusion: 0.6416 
+Infiltration: 0.5916 
+
+
+Epoch 18/49
+----------
+train 41.15% Loss: 4.0113 AUC: 0.6295
+train 82.30% Loss: 3.9790 AUC: 0.6295
+train Loss: 3.9677 AUC: 0.6325
+
+Atelectasis: 0.6227 
+Effusion: 0.6930 
+Infiltration: 0.5818 
+
+test Loss: 4.0670 AUC: 0.6125
+
+Atelectasis: 0.6051 
+Effusion: 0.6412 
+Infiltration: 0.5912 
+
+
+Epoch 19/49
+----------
+train 41.15% Loss: 4.0337 AUC: 0.6274
+train 82.30% Loss: 3.9857 AUC: 0.6324
+train Loss: 3.9768 AUC: 0.6330
+
+Atelectasis: 0.6276 
+Effusion: 0.6958 
+Infiltration: 0.5756 
+
+test Loss: 4.0508 AUC: 0.6124
+
+Atelectasis: 0.6008 
+Effusion: 0.6397 
+Infiltration: 0.5968 
+
+
+Epoch 20/49
+----------
+train 41.15% Loss: 3.9590 AUC: 0.6469
+train 82.30% Loss: 3.9681 AUC: 0.6375
+train Loss: 3.9533 AUC: 0.6398
+
+Atelectasis: 0.6265 
+Effusion: 0.7013 
+Infiltration: 0.5916 
+
+test Loss: 4.0483 AUC: 0.6134
+
+Atelectasis: 0.6032 
+Effusion: 0.6426 
+Infiltration: 0.5946 
+
+
+Epoch 21/49
+----------
+train 41.15% Loss: 3.9764 AUC: 0.6412
+train 82.30% Loss: 4.0177 AUC: 0.6244
+train Loss: 3.9777 AUC: 0.6334
+
+Atelectasis: 0.6276 
+Effusion: 0.6915 
+Infiltration: 0.5811 
+
+test Loss: 4.0572 AUC: 0.6155
+
+Atelectasis: 0.6058 
+Effusion: 0.6407 
+Infiltration: 0.6000 
+
+
+Epoch 22/49
+----------
+train 41.15% Loss: 4.0143 AUC: 0.6350
+train 82.30% Loss: 3.9227 AUC: 0.6472
+train Loss: 3.9546 AUC: 0.6414
+
+Atelectasis: 0.6271 
+Effusion: 0.6991 
+Infiltration: 0.5980 
+
+test Loss: 4.0525 AUC: 0.6155
+
+Atelectasis: 0.6087 
+Effusion: 0.6433 
+Infiltration: 0.5946 
+
+
+Epoch 23/49
+----------
+train 41.15% Loss: 3.9851 AUC: 0.6449
+train 82.30% Loss: 3.9629 AUC: 0.6377
+train Loss: 3.9538 AUC: 0.6408
+
+Atelectasis: 0.6432 
+Effusion: 0.6924 
+Infiltration: 0.5867 
+
+test Loss: 4.0440 AUC: 0.6148
+
+Atelectasis: 0.6071 
+Effusion: 0.6412 
+Infiltration: 0.5961 
+
+
+Epoch 24/49
+----------
+train 41.15% Loss: 3.9938 AUC: 0.6397
+train 82.30% Loss: 3.9435 AUC: 0.6404
+train Loss: 3.9644 AUC: 0.6370
+
+Atelectasis: 0.6339 
+Effusion: 0.6966 
+Infiltration: 0.5804 
+
+test Loss: 4.0458 AUC: 0.6151
+
+Atelectasis: 0.6101 
+Effusion: 0.6418 
+Infiltration: 0.5933 
+
+
+Epoch 25/49
+----------
+train 41.15% Loss: 3.9823 AUC: 0.6452
+train 82.30% Loss: 3.9527 AUC: 0.6371
+train Loss: 3.9437 AUC: 0.6437
+
+Atelectasis: 0.6365 
+Effusion: 0.6965 
+Infiltration: 0.5981 
+
+test Loss: 4.0704 AUC: 0.6152
+
+Atelectasis: 0.6055 
+Effusion: 0.6441 
+Infiltration: 0.5960 
+
+
+Epoch 26/49
+----------
+train 41.15% Loss: 4.0077 AUC: 0.6299
+train 82.30% Loss: 3.9619 AUC: 0.6398
+train Loss: 3.9473 AUC: 0.6412
+
+Atelectasis: 0.6325 
+Effusion: 0.7039 
+Infiltration: 0.5871 
+
+test Loss: 4.0574 AUC: 0.6152
+
+Atelectasis: 0.6037 
+Effusion: 0.6449 
+Infiltration: 0.5972 
+
+
+Epoch 27/49
+----------
+train 41.15% Loss: 3.9831 AUC: 0.6446
+train 82.30% Loss: 3.9650 AUC: 0.6426
+train Loss: 3.9614 AUC: 0.6417
+
+Atelectasis: 0.6373 
+Effusion: 0.6943 
+Infiltration: 0.5935 
+
+test Loss: 4.0519 AUC: 0.6160
+
+Atelectasis: 0.6073 
+Effusion: 0.6454 
+Infiltration: 0.5954 
+
+
+Epoch 28/49
+----------
+train 41.15% Loss: 3.9778 AUC: 0.6513
+train 82.30% Loss: 3.9451 AUC: 0.6405
+train Loss: 3.9348 AUC: 0.6466
+
+Atelectasis: 0.6380 
+Effusion: 0.7090 
+Infiltration: 0.5928 
+
+test Loss: 4.0430 AUC: 0.6167
+
+Atelectasis: 0.6023 
+Effusion: 0.6451 
+Infiltration: 0.6027 
+
+
+Epoch 29/49
+----------
+train 41.15% Loss: 3.9908 AUC: 0.6453
+train 82.30% Loss: 3.9717 AUC: 0.6377
+train Loss: 3.9580 AUC: 0.6402
+
+Atelectasis: 0.6357 
+Effusion: 0.6982 
+Infiltration: 0.5867 
+
+test Loss: 4.0375 AUC: 0.6187
+
+Atelectasis: 0.6073 
+Effusion: 0.6461 
+Infiltration: 0.6026 
+
+
+Epoch 30/49
+----------
+train 41.15% Loss: 3.9798 AUC: 0.6454
+train 82.30% Loss: 3.9389 AUC: 0.6487
+train Loss: 3.9367 AUC: 0.6474
+
+Atelectasis: 0.6374 
+Effusion: 0.7055 
+Infiltration: 0.5991 
+
+test Loss: 4.0381 AUC: 0.6185
+
+Atelectasis: 0.6085 
+Effusion: 0.6460 
+Infiltration: 0.6010 
+
+
+Epoch 31/49
+----------
+train 41.15% Loss: 3.9652 AUC: 0.6478
+train 82.30% Loss: 3.9274 AUC: 0.6502
+train Loss: 3.9203 AUC: 0.6500
+
+Atelectasis: 0.6356 
+Effusion: 0.7046 
+Infiltration: 0.6099 
+
+test Loss: 4.0534 AUC: 0.6179
+
+Atelectasis: 0.6084 
+Effusion: 0.6470 
+Infiltration: 0.5981 
+
+
+Epoch 32/49
+----------
+train 41.15% Loss: 3.9636 AUC: 0.6491
+train 82.30% Loss: 3.9499 AUC: 0.6451
+train Loss: 3.9357 AUC: 0.6450
+
+Atelectasis: 0.6374 
+Effusion: 0.7014 
+Infiltration: 0.5960 
+
+test Loss: 4.0610 AUC: 0.6147
+
+Atelectasis: 0.6053 
+Effusion: 0.6451 
+Infiltration: 0.5937 
+
+
+Epoch 33/49
+----------
+train 41.15% Loss: 3.9691 AUC: 0.6438
+train 82.30% Loss: 3.9422 AUC: 0.6487
+train Loss: 3.9421 AUC: 0.6464
+
+Atelectasis: 0.6364 
+Effusion: 0.7074 
+Infiltration: 0.5953 
+
+test Loss: 4.0591 AUC: 0.6185
+
+Atelectasis: 0.6075 
+Effusion: 0.6475 
+Infiltration: 0.6004 
+
+
+Epoch 34/49
+----------
+train 41.15% Loss: 3.9833 AUC: 0.6407
+train 82.30% Loss: 3.9111 AUC: 0.6576
+train Loss: 3.9293 AUC: 0.6495
+
+Atelectasis: 0.6377 
+Effusion: 0.7057 
+Infiltration: 0.6052 
+
+test Loss: 4.0371 AUC: 0.6188
+
+Atelectasis: 0.6063 
+Effusion: 0.6499 
+Infiltration: 0.6002 
+
+
+Epoch 35/49
+----------
+train 41.15% Loss: 3.9774 AUC: 0.6462
+train 82.30% Loss: 3.9630 AUC: 0.6349
+train Loss: 3.9439 AUC: 0.6447
+
+Atelectasis: 0.6369 
+Effusion: 0.7032 
+Infiltration: 0.5939 
+
+test Loss: 4.0389 AUC: 0.6178
+
+Atelectasis: 0.6065 
+Effusion: 0.6491 
+Infiltration: 0.5976 
+
+
+Epoch 36/49
+----------
+train 41.15% Loss: 3.9714 AUC: 0.6536
+train 82.30% Loss: 3.9223 AUC: 0.6505
+train Loss: 3.9322 AUC: 0.6502
+
+Atelectasis: 0.6356 
+Effusion: 0.7087 
+Infiltration: 0.6063 
+
+test Loss: 4.0320 AUC: 0.6202
+
+Atelectasis: 0.6071 
+Effusion: 0.6506 
+Infiltration: 0.6028 
+
+
+Epoch 37/49
+----------
+train 41.15% Loss: 3.9523 AUC: 0.6591
+train 82.30% Loss: 3.9394 AUC: 0.6467
+train Loss: 3.9360 AUC: 0.6492
+
+Atelectasis: 0.6486 
+Effusion: 0.6957 
+Infiltration: 0.6032 
+
+test Loss: 4.0237 AUC: 0.6193
+
+Atelectasis: 0.6072 
+Effusion: 0.6501 
+Infiltration: 0.6006 
+
+
+Epoch 38/49
+----------
+train 41.15% Loss: 3.9794 AUC: 0.6466
+train 82.30% Loss: 3.9241 AUC: 0.6519
+train Loss: 3.9243 AUC: 0.6500
+
+Atelectasis: 0.6431 
+Effusion: 0.7072 
+Infiltration: 0.5998 
+
+test Loss: 4.0537 AUC: 0.6179
+
+Atelectasis: 0.6049 
+Effusion: 0.6514 
+Infiltration: 0.5976 
+
+
+Epoch 39/49
+----------
+train 41.15% Loss: 3.9961 AUC: 0.6408
+train 82.30% Loss: 3.9437 AUC: 0.6463
+train Loss: 3.9433 AUC: 0.6464
+
+Atelectasis: 0.6447 
+Effusion: 0.6990 
+Infiltration: 0.5955 
+
+test Loss: 4.0328 AUC: 0.6186
+
+Atelectasis: 0.6053 
+Effusion: 0.6513 
+Infiltration: 0.5992 
+
+
+Epoch 40/49
+----------
+train 41.15% Loss: 3.9471 AUC: 0.6540
+train 82.30% Loss: 3.9237 AUC: 0.6493
+train Loss: 3.9246 AUC: 0.6487
+
+Atelectasis: 0.6375 
+Effusion: 0.7052 
+Infiltration: 0.6035 
+
+test Loss: 4.0364 AUC: 0.6187
+
+Atelectasis: 0.6060 
+Effusion: 0.6515 
+Infiltration: 0.5985 
+
+
+Epoch 41/49
+----------
+train 41.15% Loss: 3.9305 AUC: 0.6556
+train 82.30% Loss: 3.9203 AUC: 0.6494
+train Loss: 3.9175 AUC: 0.6497
+
+Atelectasis: 0.6469 
+Effusion: 0.7095 
+Infiltration: 0.5928 
+
+test Loss: 4.0302 AUC: 0.6219
+
+Atelectasis: 0.6087 
+Effusion: 0.6514 
+Infiltration: 0.6055 
+
+
+Epoch 42/49
+----------
+train 41.15% Loss: 3.9693 AUC: 0.6496
+train 82.30% Loss: 3.9467 AUC: 0.6456
+train Loss: 3.9311 AUC: 0.6515
+
+Atelectasis: 0.6353 
+Effusion: 0.7080 
+Infiltration: 0.6111 
+
+test Loss: 4.0378 AUC: 0.6205
+
+Atelectasis: 0.6067 
+Effusion: 0.6514 
+Infiltration: 0.6034 
+
+
+Epoch 43/49
+----------
+train 41.15% Loss: 3.9603 AUC: 0.6532
+train 82.30% Loss: 3.9130 AUC: 0.6539
+train Loss: 3.9228 AUC: 0.6512
+
+Atelectasis: 0.6451 
+Effusion: 0.7146 
+Infiltration: 0.5938 
+
+test Loss: 4.0500 AUC: 0.6196
+
+Atelectasis: 0.6070 
+Effusion: 0.6514 
+Infiltration: 0.6005 
+
+
+Epoch 44/49
+----------
+train 41.15% Loss: 3.9783 AUC: 0.6431
+train 82.30% Loss: 3.9336 AUC: 0.6471
+train Loss: 3.9370 AUC: 0.6460
+
+Atelectasis: 0.6334 
+Effusion: 0.7105 
+Infiltration: 0.5940 
+
+test Loss: 4.0321 AUC: 0.6232
+
+Atelectasis: 0.6108 
+Effusion: 0.6528 
+Infiltration: 0.6059 
+
+
+Epoch 45/49
+----------
+train 41.15% Loss: 3.9392 AUC: 0.6621
+train 82.30% Loss: 3.9640 AUC: 0.6361
+train Loss: 3.9261 AUC: 0.6510
+
+Atelectasis: 0.6492 
+Effusion: 0.7052 
+Infiltration: 0.5986 
+
+test Loss: 4.0398 AUC: 0.6224
+
+Atelectasis: 0.6112 
+Effusion: 0.6506 
+Infiltration: 0.6053 
+
+
+Epoch 46/49
+----------
+train 41.15% Loss: 3.9410 AUC: 0.6603
+train 82.30% Loss: 3.9443 AUC: 0.6460
+train Loss: 3.9229 AUC: 0.6535
+
+Atelectasis: 0.6451 
+Effusion: 0.7092 
+Infiltration: 0.6062 
+
+test Loss: 4.0336 AUC: 0.6216
+
+Atelectasis: 0.6109 
+Effusion: 0.6523 
+Infiltration: 0.6017 
+
+
+Epoch 47/49
+----------
+train 41.15% Loss: 3.9583 AUC: 0.6462
+train 82.30% Loss: 3.9416 AUC: 0.6417
+train Loss: 3.9146 AUC: 0.6505
+
+Atelectasis: 0.6539 
+Effusion: 0.7099 
+Infiltration: 0.5876 
+
+test Loss: 4.0599 AUC: 0.6188
+
+Atelectasis: 0.6069 
+Effusion: 0.6515 
+Infiltration: 0.5980 
+
+
+Epoch 48/49
+----------
+train 41.15% Loss: 3.9392 AUC: 0.6607
+train 82.30% Loss: 3.9272 AUC: 0.6507
+train Loss: 3.9249 AUC: 0.6528
+
+Atelectasis: 0.6436 
+Effusion: 0.7026 
+Infiltration: 0.6122 
+
+test Loss: 4.0434 AUC: 0.6212
+
+Atelectasis: 0.6102 
+Effusion: 0.6532 
+Infiltration: 0.6003 
+
+
+Epoch 49/49
+----------
+train 41.15% Loss: 3.9658 AUC: 0.6578
+train 82.30% Loss: 3.9059 AUC: 0.6557
+train Loss: 3.9152 AUC: 0.6558
+
+Atelectasis: 0.6481 
+Effusion: 0.7122 
+Infiltration: 0.6070 
+
+test Loss: 4.0407 AUC: 0.6201
+
+Atelectasis: 0.6112 
+Effusion: 0.6532 
+Infiltration: 0.5959 
+
+
+Training complete in 5m 38s
+Best val AUC: 0.623153
+
+Atelectasis: 0.6112 
+Effusion: 0.6532 
+Infiltration: 0.5959 
+pelican03 ~/cs535/final_project/finalpj 1003$ 
+
+
+pretrain: yes
+lock pre-CNN: yes
+optimization: Adam(1e-5)

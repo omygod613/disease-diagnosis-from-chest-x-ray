@@ -1,0 +1,829 @@
+
+pelican03 ~ 1001$ cd ~/cs535/final_project/finalpj/
+pelican03 ~/cs535/final_project/finalpj 1002$ SqueezeNet1_0_all_0.9.txt
+bash: SqueezeNet1_0_all_0.9.txt: command not found
+pelican03 ~/cs535/final_project/finalpj 1003$ CUDA_VISIBLE_DEVICES=1 python train.py
+Training data: 83097
+Test data: 23913
+Epoch 0/8
+----------
+train 1.93% Loss: 11.4506 AUC: 0.5085
+train 3.85% Loss: 9.7764 AUC: 0.5437
+train 5.78% Loss: 9.6108 AUC: 0.5635
+train 7.70% Loss: 9.8272 AUC: 0.5597
+train 9.63% Loss: 9.7750 AUC: 0.5687
+train 11.55% Loss: 9.4131 AUC: 0.6262
+train 13.48% Loss: 9.5956 AUC: 0.6270
+train 15.40% Loss: 9.0614 AUC: 0.6376
+train 17.33% Loss: 9.2491 AUC: 0.6126
+train 19.25% Loss: 9.2870 AUC: 0.6421
+train 21.18% Loss: 9.1292 AUC: 0.6488
+train 23.10% Loss: 8.8636 AUC: 0.6522
+train 25.03% Loss: 9.1693 AUC: 0.6477
+train 26.95% Loss: 9.1297 AUC: 0.6591
+train 28.88% Loss: 8.9231 AUC: 0.6608
+train 30.80% Loss: 9.1481 AUC: 0.6576
+train 32.73% Loss: 9.0703 AUC: 0.6735
+train 34.66% Loss: 9.0123 AUC: 0.6541
+train 36.58% Loss: 9.1708 AUC: 0.6545
+train 38.51% Loss: 9.1225 AUC: 0.6719
+train 40.43% Loss: 9.1192 AUC: 0.6613
+train 42.36% Loss: 8.9880 AUC: 0.6596
+train 44.28% Loss: 8.9500 AUC: 0.6759
+train 46.21% Loss: 8.8440 AUC: 0.6753
+train 48.13% Loss: 8.7689 AUC: 0.6905
+train 50.06% Loss: 9.0227 AUC: 0.6799
+train 51.98% Loss: 8.7969 AUC: 0.6997
+train 53.91% Loss: 8.9130 AUC: 0.6882
+train 55.83% Loss: 8.9420 AUC: 0.6939
+train 57.76% Loss: 8.6569 AUC: 0.7223
+train 59.68% Loss: 8.6575 AUC: 0.6915
+train 61.61% Loss: 8.7555 AUC: 0.6978
+train 63.53% Loss: 8.8468 AUC: 0.6998
+train 65.46% Loss: 8.9779 AUC: 0.6789
+train 67.39% Loss: 8.6925 AUC: 0.7115
+train 69.31% Loss: 9.0187 AUC: 0.6718
+train 71.24% Loss: 8.9072 AUC: 0.7082
+train 73.16% Loss: 8.9063 AUC: 0.7027
+train 75.09% Loss: 8.7446 AUC: 0.6985
+train 77.01% Loss: 8.8177 AUC: 0.7027
+train 78.94% Loss: 8.7958 AUC: 0.7111
+train 80.86% Loss: 8.8979 AUC: 0.6889
+train 82.79% Loss: 8.6311 AUC: 0.7125
+train 84.71% Loss: 8.6713 AUC: 0.7170
+train 86.64% Loss: 8.8527 AUC: 0.7169
+train 88.56% Loss: 8.8276 AUC: 0.7166
+train 90.49% Loss: 8.6775 AUC: 0.7244
+train 92.41% Loss: 8.8085 AUC: 0.7205
+train 94.34% Loss: 8.8704 AUC: 0.6970
+train 96.26% Loss: 8.7149 AUC: 0.6749
+train 98.19% Loss: 8.6879 AUC: 0.6832
+train Loss: 9.0414 AUC: 0.6732
+
+Atelectasis: 0.7171
+Cardiomegaly: 0.6536
+Effusion: 0.7978
+Infiltration: 0.6285
+Mass: 0.6508
+Nodule: 0.6084
+Pneumonia: 0.6163
+Pneumothorax: 0.7128
+
+test 6.69% Loss: 9.6281 AUC: 0.6861
+test 13.38% Loss: 9.5443 AUC: 0.6832
+test 20.07% Loss: 9.5723 AUC: 0.6837
+test 26.76% Loss: 9.5256 AUC: 0.6845
+test 33.44% Loss: 9.3136 AUC: 0.6844
+test 40.13% Loss: 9.4875 AUC: 0.6796
+test 46.82% Loss: 9.3868 AUC: 0.6847
+test 53.51% Loss: 9.4274 AUC: 0.6831
+test 60.20% Loss: 9.5598 AUC: 0.6855
+test 66.89% Loss: 9.3904 AUC: 0.6932
+test 73.58% Loss: 9.5117 AUC: 0.6884
+test 80.27% Loss: 9.5442 AUC: 0.6787
+test 86.96% Loss: 9.5627 AUC: 0.6638
+test 93.65% Loss: 9.4015 AUC: 0.6929
+test Loss: 9.4801 AUC: 0.6828
+
+Atelectasis: 0.6768
+Cardiomegaly: 0.7515
+Effusion: 0.7304
+Infiltration: 0.6624
+Mass: 0.6427
+Nodule: 0.6660
+Pneumonia: 0.5974
+Pneumothorax: 0.7349
+
+
+Epoch 1/8
+----------
+train 1.93% Loss: 8.5807 AUC: 0.7206
+train 3.85% Loss: 8.5588 AUC: 0.7284
+train 5.78% Loss: 8.5934 AUC: 0.7269
+train 7.70% Loss: 8.5882 AUC: 0.7278
+train 9.63% Loss: 8.4616 AUC: 0.7294
+train 11.55% Loss: 8.5615 AUC: 0.7262
+train 13.48% Loss: 8.5237 AUC: 0.7167
+train 15.40% Loss: 8.7854 AUC: 0.6860
+train 17.33% Loss: 8.7198 AUC: 0.7218
+train 19.25% Loss: 8.6684 AUC: 0.7000
+train 21.18% Loss: 8.4462 AUC: 0.7189
+train 23.10% Loss: 8.6662 AUC: 0.7297
+train 25.03% Loss: 8.5532 AUC: 0.7249
+train 26.95% Loss: 8.5579 AUC: 0.7236
+train 28.88% Loss: 8.7780 AUC: 0.7319
+train 30.80% Loss: 8.6080 AUC: 0.7259
+train 32.73% Loss: 8.5129 AUC: 0.7251
+train 34.66% Loss: 8.5268 AUC: 0.7416
+train 36.58% Loss: 8.5771 AUC: 0.7213
+train 38.51% Loss: 8.5688 AUC: 0.7202
+train 40.43% Loss: 8.7185 AUC: 0.7020
+train 42.36% Loss: 8.5140 AUC: 0.7407
+train 44.28% Loss: 8.6533 AUC: 0.7122
+train 46.21% Loss: 8.5417 AUC: 0.7303
+train 48.13% Loss: 8.6490 AUC: 0.7348
+train 50.06% Loss: 8.4738 AUC: 0.7401
+train 51.98% Loss: 8.6839 AUC: 0.7032
+train 53.91% Loss: 8.6053 AUC: 0.7201
+train 55.83% Loss: 8.3874 AUC: 0.7266
+train 57.76% Loss: 8.6151 AUC: 0.7336
+train 59.68% Loss: 8.5244 AUC: 0.7350
+train 61.61% Loss: 8.5444 AUC: 0.7553
+train 63.53% Loss: 8.4015 AUC: 0.7468
+train 65.46% Loss: 8.4911 AUC: 0.7354
+train 67.39% Loss: 8.3663 AUC: 0.7519
+train 69.31% Loss: 8.4685 AUC: 0.7186
+train 71.24% Loss: 8.7735 AUC: 0.7403
+train 73.16% Loss: 8.5220 AUC: 0.7417
+train 75.09% Loss: 8.1541 AUC: 0.7435
+train 77.01% Loss: 8.7097 AUC: 0.7087
+train 78.94% Loss: 8.4527 AUC: 0.7366
+train 80.86% Loss: 8.4380 AUC: 0.7309
+train 82.79% Loss: 8.5061 AUC: 0.7297
+train 84.71% Loss: 8.2140 AUC: 0.7398
+train 86.64% Loss: 8.4229 AUC: 0.7412
+train 88.56% Loss: 8.4531 AUC: 0.7320
+train 90.49% Loss: 8.4807 AUC: 0.7419
+train 92.41% Loss: 8.4631 AUC: 0.7298
+train 94.34% Loss: 8.5356 AUC: 0.7285
+train 96.26% Loss: 8.6033 AUC: 0.7149
+train 98.19% Loss: 8.4844 AUC: 0.7195
+train Loss: 8.5344 AUC: 0.7301
+
+Atelectasis: 0.7616
+Cardiomegaly: 0.7861
+Effusion: 0.8388
+Infiltration: 0.6585
+Mass: 0.7018
+Nodule: 0.6591
+Pneumonia: 0.6728
+Pneumothorax: 0.7623
+
+test 6.69% Loss: 9.4915 AUC: 0.6971
+test 13.38% Loss: 9.5173 AUC: 0.7035
+test 20.07% Loss: 9.5069 AUC: 0.7024
+test 26.76% Loss: 9.3364 AUC: 0.7015
+test 33.44% Loss: 9.0367 AUC: 0.7176
+test 40.13% Loss: 9.5311 AUC: 0.6926
+test 46.82% Loss: 9.3963 AUC: 0.7034
+test 53.51% Loss: 9.0367 AUC: 0.7271
+test 60.20% Loss: 9.1689 AUC: 0.7071
+test 66.89% Loss: 9.3961 AUC: 0.6971
+test 73.58% Loss: 9.2952 AUC: 0.7014
+test 80.27% Loss: 8.9582 AUC: 0.7137
+test 86.96% Loss: 8.9054 AUC: 0.7237
+test 93.65% Loss: 9.4099 AUC: 0.7043
+test Loss: 9.2773 AUC: 0.7065
+
+Atelectasis: 0.7103
+Cardiomegaly: 0.8095
+Effusion: 0.7489
+Infiltration: 0.6653
+Mass: 0.6655
+Nodule: 0.6771
+Pneumonia: 0.6335
+Pneumothorax: 0.7416
+
+
+Epoch 2/8
+----------
+train 1.93% Loss: 8.2858 AUC: 0.7463
+train 3.85% Loss: 8.3594 AUC: 0.7516
+train 5.78% Loss: 8.1964 AUC: 0.7503
+train 7.70% Loss: 8.1096 AUC: 0.7533
+train 9.63% Loss: 8.3178 AUC: 0.7540
+train 11.55% Loss: 8.4953 AUC: 0.7534
+train 13.48% Loss: 8.2485 AUC: 0.7467
+train 15.40% Loss: 8.6004 AUC: 0.7344
+train 17.33% Loss: 8.1099 AUC: 0.7666
+train 19.25% Loss: 8.4593 AUC: 0.7333
+train 21.18% Loss: 8.2053 AUC: 0.7486
+train 23.10% Loss: 8.4213 AUC: 0.7518
+train 25.03% Loss: 8.3934 AUC: 0.7419
+train 26.95% Loss: 8.0979 AUC: 0.7431
+train 28.88% Loss: 8.6547 AUC: 0.7236
+train 30.80% Loss: 8.6406 AUC: 0.7440
+train 32.73% Loss: 8.4674 AUC: 0.7338
+train 34.66% Loss: 8.2553 AUC: 0.7373
+train 36.58% Loss: 8.3685 AUC: 0.7321
+train 38.51% Loss: 8.3181 AUC: 0.7592
+train 40.43% Loss: 8.4556 AUC: 0.7433
+train 42.36% Loss: 8.5041 AUC: 0.7427
+train 44.28% Loss: 8.2965 AUC: 0.7412
+train 46.21% Loss: 8.1801 AUC: 0.7415
+train 48.13% Loss: 8.2132 AUC: 0.7368
+train 50.06% Loss: 8.1604 AUC: 0.7502
+train 51.98% Loss: 8.3022 AUC: 0.7556
+train 53.91% Loss: 8.5682 AUC: 0.7383
+train 55.83% Loss: 8.3824 AUC: 0.7609
+train 57.76% Loss: 8.4264 AUC: 0.7472
+train 59.68% Loss: 8.4705 AUC: 0.7503
+train 61.61% Loss: 8.4000 AUC: 0.7483
+train 63.53% Loss: 8.4686 AUC: 0.7164
+train 65.46% Loss: 8.4177 AUC: 0.7485
+train 67.39% Loss: 8.2393 AUC: 0.7457
+train 69.31% Loss: 8.4096 AUC: 0.7368
+train 71.24% Loss: 8.2918 AUC: 0.7485
+train 73.16% Loss: 8.1207 AUC: 0.7584
+train 75.09% Loss: 8.3531 AUC: 0.7513
+train 77.01% Loss: 8.4018 AUC: 0.7666
+train 78.94% Loss: 8.3306 AUC: 0.7620
+train 80.86% Loss: 8.5854 AUC: 0.7169
+train 82.79% Loss: 8.3258 AUC: 0.7431
+train 84.71% Loss: 8.2389 AUC: 0.7544
+train 86.64% Loss: 8.1258 AUC: 0.7585
+train 88.56% Loss: 8.2030 AUC: 0.7621
+train 90.49% Loss: 8.3909 AUC: 0.7498
+train 92.41% Loss: 8.0546 AUC: 0.7668
+train 94.34% Loss: 8.3089 AUC: 0.7531
+train 96.26% Loss: 8.6261 AUC: 0.7313
+train 98.19% Loss: 8.3000 AUC: 0.7561
+train Loss: 8.3381 AUC: 0.7491
+
+Atelectasis: 0.7723
+Cardiomegaly: 0.8396
+Effusion: 0.8500
+Infiltration: 0.6680
+Mass: 0.7256
+Nodule: 0.6741
+Pneumonia: 0.6889
+Pneumothorax: 0.7738
+
+test 6.69% Loss: 9.5948 AUC: 0.7115
+test 13.38% Loss: 9.3755 AUC: 0.7116
+test 20.07% Loss: 9.4011 AUC: 0.7311
+test 26.76% Loss: 9.3967 AUC: 0.7137
+test 33.44% Loss: 9.4473 AUC: 0.7175
+test 40.13% Loss: 9.1935 AUC: 0.7162
+test 46.82% Loss: 9.5220 AUC: 0.7027
+test 53.51% Loss: 8.9830 AUC: 0.7281
+test 60.20% Loss: 9.2515 AUC: 0.7159
+test 66.89% Loss: 9.5691 AUC: 0.7132
+test 73.58% Loss: 9.4962 AUC: 0.6943
+test 80.27% Loss: 9.3887 AUC: 0.7113
+test 86.96% Loss: 9.2006 AUC: 0.7263
+test 93.65% Loss: 9.4840 AUC: 0.7215
+test Loss: 9.3597 AUC: 0.7164
+
+Atelectasis: 0.7110
+Cardiomegaly: 0.8248
+Effusion: 0.7586
+Infiltration: 0.6689
+Mass: 0.6934
+Nodule: 0.6792
+Pneumonia: 0.6456
+Pneumothorax: 0.7494
+
+
+Epoch 3/8
+----------
+train 1.93% Loss: 8.3129 AUC: 0.7742
+train 3.85% Loss: 8.2905 AUC: 0.7662
+train 5.78% Loss: 7.9772 AUC: 0.7608
+train 7.70% Loss: 8.2053 AUC: 0.7575
+train 9.63% Loss: 8.3131 AUC: 0.7392
+train 11.55% Loss: 8.1961 AUC: 0.7472
+train 13.48% Loss: 8.3127 AUC: 0.7546
+train 15.40% Loss: 8.2520 AUC: 0.7402
+train 17.33% Loss: 7.9969 AUC: 0.7773
+train 19.25% Loss: 8.1411 AUC: 0.7566
+train 21.18% Loss: 8.1366 AUC: 0.7624
+train 23.10% Loss: 8.3527 AUC: 0.7417
+train 25.03% Loss: 8.2375 AUC: 0.7556
+train 26.95% Loss: 8.1348 AUC: 0.7712
+train 28.88% Loss: 8.3014 AUC: 0.7510
+train 30.80% Loss: 7.9218 AUC: 0.7723
+train 32.73% Loss: 8.2567 AUC: 0.7550
+train 34.66% Loss: 8.4128 AUC: 0.7467
+train 36.58% Loss: 8.1023 AUC: 0.7551
+train 38.51% Loss: 8.2273 AUC: 0.7599
+train 40.43% Loss: 7.9606 AUC: 0.7753
+train 42.36% Loss: 8.2574 AUC: 0.7443
+train 44.28% Loss: 8.2636 AUC: 0.7506
+train 46.21% Loss: 8.1396 AUC: 0.7595
+train 48.13% Loss: 8.1484 AUC: 0.7675
+train 50.06% Loss: 8.1964 AUC: 0.7629
+train 51.98% Loss: 8.0564 AUC: 0.7614
+train 53.91% Loss: 8.5849 AUC: 0.7500
+train 55.83% Loss: 8.2052 AUC: 0.7653
+train 57.76% Loss: 8.3790 AUC: 0.7529
+train 59.68% Loss: 8.1829 AUC: 0.7626
+train 61.61% Loss: 8.1165 AUC: 0.7618
+train 63.53% Loss: 7.9625 AUC: 0.7507
+train 65.46% Loss: 8.6046 AUC: 0.7471
+train 67.39% Loss: 8.0026 AUC: 0.7701
+train 69.31% Loss: 8.1228 AUC: 0.7693
+train 71.24% Loss: 8.2153 AUC: 0.7485
+train 73.16% Loss: 7.8890 AUC: 0.7871
+train 75.09% Loss: 8.2547 AUC: 0.7791
+train 77.01% Loss: 7.9309 AUC: 0.7667
+train 78.94% Loss: 8.0141 AUC: 0.7771
+train 80.86% Loss: 7.9092 AUC: 0.7762
+train 82.79% Loss: 8.2092 AUC: 0.7532
+train 84.71% Loss: 7.9544 AUC: 0.7642
+train 86.64% Loss: 8.0775 AUC: 0.7700
+train 88.56% Loss: 8.3867 AUC: 0.7612
+train 90.49% Loss: 8.1835 AUC: 0.7642
+train 92.41% Loss: 7.9575 AUC: 0.7820
+train 94.34% Loss: 8.2156 AUC: 0.7614
+train 96.26% Loss: 8.5384 AUC: 0.7433
+train 98.19% Loss: 8.2083 AUC: 0.7637
+train Loss: 8.1780 AUC: 0.7615
+
+Atelectasis: 0.7793
+Cardiomegaly: 0.8648
+Effusion: 0.8579
+Infiltration: 0.6731
+Mass: 0.7434
+Nodule: 0.6867
+Pneumonia: 0.7022
+Pneumothorax: 0.7846
+
+test 6.69% Loss: 9.2025 AUC: 0.7222
+test 13.38% Loss: 9.1564 AUC: 0.7337
+test 20.07% Loss: 9.1499 AUC: 0.7340
+test 26.76% Loss: 9.2489 AUC: 0.7209
+test 33.44% Loss: 9.2660 AUC: 0.7210
+test 40.13% Loss: 9.0973 AUC: 0.7326
+test 46.82% Loss: 9.1763 AUC: 0.7265
+test 53.51% Loss: 9.1034 AUC: 0.7322
+test 60.20% Loss: 9.3271 AUC: 0.7073
+test 66.89% Loss: 9.3758 AUC: 0.7120
+test 73.58% Loss: 9.0348 AUC: 0.7431
+test 80.27% Loss: 9.1473 AUC: 0.7341
+test 86.96% Loss: 9.3578 AUC: 0.7175
+test 93.65% Loss: 9.2239 AUC: 0.7225
+test Loss: 9.2109 AUC: 0.7252
+
+Atelectasis: 0.7192
+Cardiomegaly: 0.8348
+Effusion: 0.7657
+Infiltration: 0.6723
+Mass: 0.6965
+Nodule: 0.6758
+Pneumonia: 0.6580
+Pneumothorax: 0.7794
+
+
+Epoch 4/8
+----------
+train 1.93% Loss: 8.0427 AUC: 0.7681
+train 3.85% Loss: 8.0999 AUC: 0.7792
+train 5.78% Loss: 8.3180 AUC: 0.7551
+train 7.70% Loss: 7.9591 AUC: 0.7691
+train 9.63% Loss: 8.0590 AUC: 0.7692
+train 11.55% Loss: 7.8608 AUC: 0.7792
+train 13.48% Loss: 8.1378 AUC: 0.7445
+train 15.40% Loss: 7.9402 AUC: 0.7526
+train 17.33% Loss: 8.0410 AUC: 0.7603
+train 19.25% Loss: 8.3055 AUC: 0.7583
+train 21.18% Loss: 8.2925 AUC: 0.7728
+train 23.10% Loss: 7.9428 AUC: 0.7825
+train 25.03% Loss: 8.0255 AUC: 0.7900
+train 26.95% Loss: 8.0535 AUC: 0.7545
+train 28.88% Loss: 8.1519 AUC: 0.7506
+train 30.80% Loss: 8.0667 AUC: 0.7882
+train 32.73% Loss: 8.0771 AUC: 0.7782
+train 34.66% Loss: 8.1184 AUC: 0.7585
+train 36.58% Loss: 8.1703 AUC: 0.7775
+train 38.51% Loss: 8.1047 AUC: 0.7614
+train 40.43% Loss: 8.1318 AUC: 0.7593
+train 42.36% Loss: 7.9166 AUC: 0.7812
+train 44.28% Loss: 8.3174 AUC: 0.7401
+train 46.21% Loss: 7.8837 AUC: 0.7792
+train 48.13% Loss: 8.1721 AUC: 0.7655
+train 50.06% Loss: 8.4091 AUC: 0.7476
+train 51.98% Loss: 7.7618 AUC: 0.7792
+train 53.91% Loss: 8.4327 AUC: 0.7579
+train 55.83% Loss: 8.2867 AUC: 0.7535
+train 57.76% Loss: 8.1757 AUC: 0.7656
+train 59.68% Loss: 7.9463 AUC: 0.7644
+train 61.61% Loss: 7.9272 AUC: 0.7656
+train 63.53% Loss: 7.8407 AUC: 0.7724
+train 65.46% Loss: 7.9951 AUC: 0.7613
+train 67.39% Loss: 8.3439 AUC: 0.7604
+train 69.31% Loss: 8.1399 AUC: 0.7782
+train 71.24% Loss: 8.0658 AUC: 0.7665
+train 73.16% Loss: 8.2745 AUC: 0.7562
+train 75.09% Loss: 8.1706 AUC: 0.7786
+train 77.01% Loss: 8.2444 AUC: 0.7668
+train 78.94% Loss: 8.1586 AUC: 0.7709
+train 80.86% Loss: 8.0961 AUC: 0.7689
+train 82.79% Loss: 8.2708 AUC: 0.7675
+train 84.71% Loss: 8.0058 AUC: 0.7969
+train 86.64% Loss: 7.9595 AUC: 0.7618
+train 88.56% Loss: 8.1222 AUC: 0.7686
+train 90.49% Loss: 7.9970 AUC: 0.7794
+train 92.41% Loss: 7.9453 AUC: 0.7723
+train 94.34% Loss: 8.1504 AUC: 0.7760
+train 96.26% Loss: 8.1428 AUC: 0.7570
+train 98.19% Loss: 8.0732 AUC: 0.7551
+train Loss: 8.1002 AUC: 0.7683
+
+Atelectasis: 0.7832
+Cardiomegaly: 0.8767
+Effusion: 0.8629
+Infiltration: 0.6804
+Mass: 0.7601
+Nodule: 0.6885
+Pneumonia: 0.7028
+Pneumothorax: 0.7917
+
+test 6.69% Loss: 8.7972 AUC: 0.7441
+test 13.38% Loss: 9.0023 AUC: 0.7235
+test 20.07% Loss: 9.0301 AUC: 0.7261
+test 26.76% Loss: 8.8605 AUC: 0.7287
+test 33.44% Loss: 9.1461 AUC: 0.7263
+test 40.13% Loss: 8.9211 AUC: 0.7368
+test 46.82% Loss: 9.1246 AUC: 0.7179
+test 53.51% Loss: 9.0955 AUC: 0.7200
+test 60.20% Loss: 9.0424 AUC: 0.7365
+test 66.89% Loss: 9.0143 AUC: 0.7347
+test 73.58% Loss: 9.0688 AUC: 0.7271
+test 80.27% Loss: 8.9439 AUC: 0.7406
+test 86.96% Loss: 9.0372 AUC: 0.7155
+test 93.65% Loss: 9.0865 AUC: 0.7258
+test Loss: 8.9978 AUC: 0.7290
+
+Atelectasis: 0.7209
+Cardiomegaly: 0.8485
+Effusion: 0.7719
+Infiltration: 0.6725
+Mass: 0.7036
+Nodule: 0.6792
+Pneumonia: 0.6590
+Pneumothorax: 0.7761
+
+
+Epoch 5/8
+----------
+train 1.93% Loss: 8.1582 AUC: 0.7712
+train 3.85% Loss: 7.9262 AUC: 0.7746
+train 5.78% Loss: 8.1227 AUC: 0.7572
+train 7.70% Loss: 7.8964 AUC: 0.7593
+train 9.63% Loss: 7.8606 AUC: 0.7866
+train 11.55% Loss: 7.9221 AUC: 0.7948
+train 13.48% Loss: 8.0336 AUC: 0.7762
+train 15.40% Loss: 7.9378 AUC: 0.7696
+train 17.33% Loss: 8.1917 AUC: 0.7576
+train 19.25% Loss: 8.2821 AUC: 0.7597
+train 21.18% Loss: 7.7793 AUC: 0.7943
+train 23.10% Loss: 7.8017 AUC: 0.7748
+train 25.03% Loss: 7.9959 AUC: 0.7670
+train 26.95% Loss: 7.8285 AUC: 0.8018
+train 28.88% Loss: 7.7988 AUC: 0.7698
+train 30.80% Loss: 8.0039 AUC: 0.7813
+train 32.73% Loss: 8.1311 AUC: 0.7628
+train 34.66% Loss: 8.1184 AUC: 0.7632
+train 36.58% Loss: 8.2962 AUC: 0.7528
+train 38.51% Loss: 8.1139 AUC: 0.7907
+train 40.43% Loss: 7.8613 AUC: 0.7911
+train 42.36% Loss: 8.0002 AUC: 0.7832
+train 44.28% Loss: 7.9267 AUC: 0.7758
+train 46.21% Loss: 7.8814 AUC: 0.7745
+train 48.13% Loss: 8.1011 AUC: 0.7871
+train 50.06% Loss: 7.9559 AUC: 0.7805
+train 51.98% Loss: 7.9237 AUC: 0.7732
+train 53.91% Loss: 8.0962 AUC: 0.7725
+train 55.83% Loss: 8.1962 AUC: 0.7599
+train 57.76% Loss: 7.8341 AUC: 0.7939
+train 59.68% Loss: 8.0246 AUC: 0.7737
+train 61.61% Loss: 8.3107 AUC: 0.7462
+train 63.53% Loss: 8.0061 AUC: 0.7775
+train 65.46% Loss: 7.9159 AUC: 0.7940
+train 67.39% Loss: 8.0931 AUC: 0.7854
+train 69.31% Loss: 8.1281 AUC: 0.7781
+train 71.24% Loss: 8.2684 AUC: 0.7612
+train 73.16% Loss: 7.7783 AUC: 0.7977
+train 75.09% Loss: 7.9885 AUC: 0.7785
+train 77.01% Loss: 8.2509 AUC: 0.7621
+train 78.94% Loss: 7.7380 AUC: 0.7808
+train 80.86% Loss: 7.9919 AUC: 0.7475
+train 82.79% Loss: 8.0475 AUC: 0.7617
+train 84.71% Loss: 7.8976 AUC: 0.7756
+train 86.64% Loss: 7.7386 AUC: 0.7642
+train 88.56% Loss: 7.9583 AUC: 0.7823
+train 90.49% Loss: 8.2413 AUC: 0.7666
+train 92.41% Loss: 7.8307 AUC: 0.7838
+train 94.34% Loss: 7.9653 AUC: 0.7872
+train 96.26% Loss: 8.1574 AUC: 0.7835
+train 98.19% Loss: 7.9499 AUC: 0.7870
+train Loss: 7.9992 AUC: 0.7767
+
+Atelectasis: 0.7878
+Cardiomegaly: 0.8852
+Effusion: 0.8665
+Infiltration: 0.6830
+Mass: 0.7713
+Nodule: 0.6968
+Pneumonia: 0.7208
+Pneumothorax: 0.8019
+
+test 6.69% Loss: 9.3009 AUC: 0.7173
+test 13.38% Loss: 9.1075 AUC: 0.7360
+test 20.07% Loss: 8.9003 AUC: 0.7521
+test 26.76% Loss: 9.2327 AUC: 0.7297
+test 33.44% Loss: 9.2332 AUC: 0.7293
+test 40.13% Loss: 9.0770 AUC: 0.7303
+test 46.82% Loss: 9.0601 AUC: 0.7405
+test 53.51% Loss: 9.1823 AUC: 0.7294
+test 60.20% Loss: 9.1407 AUC: 0.7387
+test 66.89% Loss: 8.9982 AUC: 0.7332
+test 73.58% Loss: 9.0351 AUC: 0.7398
+test 80.27% Loss: 9.0429 AUC: 0.7403
+test 86.96% Loss: 9.0614 AUC: 0.7464
+test 93.65% Loss: 9.4552 AUC: 0.7278
+test Loss: 9.1117 AUC: 0.7357
+
+Atelectasis: 0.7245
+Cardiomegaly: 0.8511
+Effusion: 0.7769
+Infiltration: 0.6743
+Mass: 0.7246
+Nodule: 0.6841
+Pneumonia: 0.6659
+Pneumothorax: 0.7840
+
+
+Epoch 6/8
+----------
+train 1.93% Loss: 8.1850 AUC: 0.7702
+train 3.85% Loss: 7.7130 AUC: 0.7934
+train 5.78% Loss: 8.0956 AUC: 0.7844
+train 7.70% Loss: 7.7491 AUC: 0.7834
+train 9.63% Loss: 7.8362 AUC: 0.7763
+train 11.55% Loss: 8.0939 AUC: 0.7666
+train 13.48% Loss: 7.8034 AUC: 0.7951
+train 15.40% Loss: 7.9335 AUC: 0.7899
+train 17.33% Loss: 8.0151 AUC: 0.7784
+train 19.25% Loss: 7.8853 AUC: 0.7820
+train 21.18% Loss: 8.0571 AUC: 0.7777
+train 23.10% Loss: 7.9471 AUC: 0.7671
+train 25.03% Loss: 7.5554 AUC: 0.7964
+train 26.95% Loss: 8.0063 AUC: 0.7632
+train 28.88% Loss: 7.9335 AUC: 0.7726
+train 30.80% Loss: 8.0529 AUC: 0.7800
+train 32.73% Loss: 8.0764 AUC: 0.7788
+train 34.66% Loss: 7.8757 AUC: 0.7820
+train 36.58% Loss: 8.1171 AUC: 0.7750
+train 38.51% Loss: 7.8097 AUC: 0.7873
+train 40.43% Loss: 7.7171 AUC: 0.7803
+train 42.36% Loss: 8.1359 AUC: 0.7697
+train 44.28% Loss: 8.0026 AUC: 0.7775
+train 46.21% Loss: 7.9737 AUC: 0.7844
+train 48.13% Loss: 7.6814 AUC: 0.7724
+train 50.06% Loss: 7.6805 AUC: 0.7878
+train 51.98% Loss: 7.8817 AUC: 0.8004
+train 53.91% Loss: 7.9446 AUC: 0.7865
+train 55.83% Loss: 7.9674 AUC: 0.7780
+train 57.76% Loss: 8.0391 AUC: 0.7701
+train 59.68% Loss: 7.9918 AUC: 0.7713
+train 61.61% Loss: 8.0964 AUC: 0.7686
+train 63.53% Loss: 7.8785 AUC: 0.7798
+train 65.46% Loss: 7.9768 AUC: 0.7820
+train 67.39% Loss: 7.9231 AUC: 0.7846
+train 69.31% Loss: 8.0414 AUC: 0.7693
+train 71.24% Loss: 7.9208 AUC: 0.7718
+train 73.16% Loss: 8.0511 AUC: 0.7725
+train 75.09% Loss: 7.8890 AUC: 0.7863
+train 77.01% Loss: 7.8531 AUC: 0.7767
+train 78.94% Loss: 7.9086 AUC: 0.7816
+train 80.86% Loss: 7.7489 AUC: 0.7800
+train 82.79% Loss: 7.7836 AUC: 0.7943
+train 84.71% Loss: 7.9828 AUC: 0.7623
+train 86.64% Loss: 7.8047 AUC: 0.7894
+train 88.56% Loss: 7.6291 AUC: 0.7939
+train 90.49% Loss: 7.8396 AUC: 0.7820
+train 92.41% Loss: 7.8578 AUC: 0.7880
+train 94.34% Loss: 8.0788 AUC: 0.7629
+train 96.26% Loss: 7.9135 AUC: 0.7759
+train 98.19% Loss: 7.8966 AUC: 0.7864
+train Loss: 7.9174 AUC: 0.7812
+
+Atelectasis: 0.7907
+Cardiomegaly: 0.8945
+Effusion: 0.8705
+Infiltration: 0.6851
+Mass: 0.7783
+Nodule: 0.7008
+Pneumonia: 0.7200
+Pneumothorax: 0.8096
+
+test 6.69% Loss: 9.0341 AUC: 0.7503
+test 13.38% Loss: 9.1839 AUC: 0.7325
+test 20.07% Loss: 9.0549 AUC: 0.7401
+test 26.76% Loss: 8.9724 AUC: 0.7324
+test 33.44% Loss: 8.9469 AUC: 0.7414
+test 40.13% Loss: 8.8560 AUC: 0.7478
+test 46.82% Loss: 8.9823 AUC: 0.7384
+test 53.51% Loss: 8.9988 AUC: 0.7486
+test 60.20% Loss: 8.9738 AUC: 0.7479
+test 66.89% Loss: 9.1318 AUC: 0.7242
+test 73.58% Loss: 9.0926 AUC: 0.7391
+test 80.27% Loss: 8.9974 AUC: 0.7419
+test 86.96% Loss: 9.0917 AUC: 0.7390
+test 93.65% Loss: 9.0407 AUC: 0.7374
+test Loss: 9.0262 AUC: 0.7390
+
+Atelectasis: 0.7268
+Cardiomegaly: 0.8558
+Effusion: 0.7817
+Infiltration: 0.6784
+Mass: 0.7260
+Nodule: 0.6869
+Pneumonia: 0.6666
+Pneumothorax: 0.7895
+
+
+Epoch 7/8
+----------
+train 1.93% Loss: 7.8724 AUC: 0.7768
+train 3.85% Loss: 7.8194 AUC: 0.8017
+train 5.78% Loss: 7.6095 AUC: 0.7995
+train 7.70% Loss: 7.4365 AUC: 0.8151
+train 9.63% Loss: 8.1489 AUC: 0.7824
+train 11.55% Loss: 7.7821 AUC: 0.7933
+train 13.48% Loss: 7.6097 AUC: 0.8007
+train 15.40% Loss: 7.9773 AUC: 0.7742
+train 17.33% Loss: 7.8117 AUC: 0.8066
+train 19.25% Loss: 7.9830 AUC: 0.7719
+train 21.18% Loss: 7.9269 AUC: 0.7928
+train 23.10% Loss: 8.1433 AUC: 0.7683
+train 25.03% Loss: 7.8946 AUC: 0.7910
+train 26.95% Loss: 7.7597 AUC: 0.7674
+train 28.88% Loss: 7.9976 AUC: 0.7834
+train 30.80% Loss: 7.9803 AUC: 0.7784
+train 32.73% Loss: 7.9746 AUC: 0.7754
+train 34.66% Loss: 7.6910 AUC: 0.7912
+train 36.58% Loss: 8.0903 AUC: 0.7718
+train 38.51% Loss: 7.8710 AUC: 0.7912
+train 40.43% Loss: 8.0828 AUC: 0.7588
+train 42.36% Loss: 7.7972 AUC: 0.7807
+train 44.28% Loss: 8.0356 AUC: 0.7750
+train 46.21% Loss: 7.8501 AUC: 0.7926
+train 48.13% Loss: 7.9119 AUC: 0.7933
+train 50.06% Loss: 7.8686 AUC: 0.7862
+train 51.98% Loss: 7.8316 AUC: 0.7928
+train 53.91% Loss: 7.6697 AUC: 0.8014
+train 55.83% Loss: 8.2037 AUC: 0.7632
+train 57.76% Loss: 8.0122 AUC: 0.7919
+train 59.68% Loss: 7.8337 AUC: 0.7817
+train 61.61% Loss: 7.7770 AUC: 0.7761
+train 63.53% Loss: 7.6707 AUC: 0.8001
+train 65.46% Loss: 7.7987 AUC: 0.7987
+train 67.39% Loss: 7.8243 AUC: 0.7899
+train 69.31% Loss: 7.8972 AUC: 0.7860
+train 71.24% Loss: 7.8124 AUC: 0.7923
+train 73.16% Loss: 7.9502 AUC: 0.7840
+train 75.09% Loss: 7.7073 AUC: 0.7803
+train 77.01% Loss: 7.8707 AUC: 0.7828
+train 78.94% Loss: 7.6600 AUC: 0.8028
+train 80.86% Loss: 7.9236 AUC: 0.7795
+train 82.79% Loss: 7.8607 AUC: 0.7890
+train 84.71% Loss: 8.0945 AUC: 0.7611
+train 86.64% Loss: 8.0098 AUC: 0.7853
+train 88.56% Loss: 7.7674 AUC: 0.7946
+train 90.49% Loss: 7.8842 AUC: 0.7534
+train 92.41% Loss: 7.8299 AUC: 0.7856
+train 94.34% Loss: 7.7913 AUC: 0.7883
+train 96.26% Loss: 7.8697 AUC: 0.7901
+train 98.19% Loss: 8.1135 AUC: 0.7758
+train Loss: 7.8731 AUC: 0.7866
+
+Atelectasis: 0.7940
+Cardiomegaly: 0.9006
+Effusion: 0.8732
+Infiltration: 0.6902
+Mass: 0.7852
+Nodule: 0.7047
+Pneumonia: 0.7308
+Pneumothorax: 0.8141
+
+test 6.69% Loss: 9.2280 AUC: 0.7488
+test 13.38% Loss: 9.2027 AUC: 0.7505
+test 20.07% Loss: 9.0535 AUC: 0.7493
+test 26.76% Loss: 9.3948 AUC: 0.7337
+test 33.44% Loss: 9.1268 AUC: 0.7449
+test 40.13% Loss: 9.2901 AUC: 0.7427
+test 46.82% Loss: 9.0139 AUC: 0.7532
+test 53.51% Loss: 9.1966 AUC: 0.7380
+test 60.20% Loss: 9.1421 AUC: 0.7466
+test 66.89% Loss: 9.1557 AUC: 0.7598
+test 73.58% Loss: 9.2755 AUC: 0.7440
+test 80.27% Loss: 9.3061 AUC: 0.7406
+test 86.96% Loss: 9.0957 AUC: 0.7508
+test 93.65% Loss: 9.0887 AUC: 0.7507
+test Loss: 9.1782 AUC: 0.7454
+
+Atelectasis: 0.7288
+Cardiomegaly: 0.8625
+Effusion: 0.7863
+Infiltration: 0.6894
+Mass: 0.7328
+Nodule: 0.6955
+Pneumonia: 0.6681
+Pneumothorax: 0.7999
+
+
+Epoch 8/8
+----------
+train 1.93% Loss: 7.8568 AUC: 0.7867
+train 3.85% Loss: 7.8877 AUC: 0.7948
+train 5.78% Loss: 7.7336 AUC: 0.8140
+train 7.70% Loss: 7.7678 AUC: 0.7937
+train 9.63% Loss: 7.8858 AUC: 0.7822
+train 11.55% Loss: 7.8227 AUC: 0.7952
+train 13.48% Loss: 7.8434 AUC: 0.7787
+train 15.40% Loss: 7.7055 AUC: 0.7803
+train 17.33% Loss: 7.8890 AUC: 0.7786
+train 19.25% Loss: 7.7395 AUC: 0.7912
+train 21.18% Loss: 7.7489 AUC: 0.7994
+train 23.10% Loss: 8.0083 AUC: 0.7805
+train 25.03% Loss: 7.7602 AUC: 0.7894
+train 26.95% Loss: 7.5657 AUC: 0.8252
+train 28.88% Loss: 7.8147 AUC: 0.7888
+train 30.80% Loss: 7.7858 AUC: 0.7969
+train 32.73% Loss: 7.7805 AUC: 0.7906
+train 34.66% Loss: 7.7172 AUC: 0.7952
+train 36.58% Loss: 7.4547 AUC: 0.8141
+train 38.51% Loss: 7.9593 AUC: 0.7827
+train 40.43% Loss: 7.8292 AUC: 0.7889
+train 42.36% Loss: 7.4679 AUC: 0.8021
+train 44.28% Loss: 7.9868 AUC: 0.7773
+train 46.21% Loss: 7.8707 AUC: 0.7822
+train 48.13% Loss: 8.0206 AUC: 0.7778
+train 50.06% Loss: 7.6460 AUC: 0.7900
+train 51.98% Loss: 7.7145 AUC: 0.7817
+train 53.91% Loss: 7.7806 AUC: 0.8078
+train 55.83% Loss: 7.6615 AUC: 0.7923
+train 57.76% Loss: 8.0334 AUC: 0.7789
+train 59.68% Loss: 7.8717 AUC: 0.7773
+train 61.61% Loss: 7.6543 AUC: 0.7505
+train 63.53% Loss: 8.0373 AUC: 0.7745
+train 65.46% Loss: 7.5966 AUC: 0.7866
+train 67.39% Loss: 7.6591 AUC: 0.8000
+train 69.31% Loss: 7.8616 AUC: 0.7798
+train 71.24% Loss: 7.8291 AUC: 0.7991
+train 73.16% Loss: 8.0833 AUC: 0.7746
+train 75.09% Loss: 7.6356 AUC: 0.8019
+train 77.01% Loss: 7.6537 AUC: 0.8021
+train 78.94% Loss: 7.8807 AUC: 0.7836
+train 80.86% Loss: 7.8959 AUC: 0.7911
+train 82.79% Loss: 8.1987 AUC: 0.7604
+train 84.71% Loss: 7.5543 AUC: 0.8177
+train 86.64% Loss: 7.6890 AUC: 0.8009
+train 88.56% Loss: 8.0212 AUC: 0.7742
+train 90.49% Loss: 7.8272 AUC: 0.7866
+train 92.41% Loss: 8.0976 AUC: 0.7832
+train 94.34% Loss: 7.9208 AUC: 0.7689
+train 96.26% Loss: 7.9663 AUC: 0.7754
+train 98.19% Loss: 7.5370 AUC: 0.8189
+train Loss: 7.8026 AUC: 0.7911
+
+Atelectasis: 0.7956
+Cardiomegaly: 0.9065
+Effusion: 0.8759
+Infiltration: 0.6910
+Mass: 0.7923
+Nodule: 0.7082
+Pneumonia: 0.7381
+Pneumothorax: 0.8214
+
+test 6.69% Loss: 8.8009 AUC: 0.7587
+test 13.38% Loss: 8.9199 AUC: 0.7438
+test 20.07% Loss: 8.8783 AUC: 0.7378
+test 26.76% Loss: 8.9606 AUC: 0.7491
+test 33.44% Loss: 8.8463 AUC: 0.7403
+test 40.13% Loss: 8.9225 AUC: 0.7472
+test 46.82% Loss: 9.1423 AUC: 0.7311
+test 53.51% Loss: 9.0457 AUC: 0.7366
+test 60.20% Loss: 9.0255 AUC: 0.7476
+test 66.89% Loss: 8.8888 AUC: 0.7448
+test 73.58% Loss: 8.7565 AUC: 0.7417
+test 80.27% Loss: 9.2780 AUC: 0.7210
+test 86.96% Loss: 8.8335 AUC: 0.7581
+test 93.65% Loss: 9.1732 AUC: 0.7402
+test Loss: 8.9490 AUC: 0.7430
+
+Atelectasis: 0.7271
+Cardiomegaly: 0.8625
+Effusion: 0.7896
+Infiltration: 0.6851
+Mass: 0.7340
+Nodule: 0.6807
+Pneumonia: 0.6637
+Pneumothorax: 0.8016
+
+
+Training complete in 61m 60s
+Best val AUC: 0.745410
+
+Atelectasis: 0.7271
+Cardiomegaly: 0.8625
+Effusion: 0.7896
+Infiltration: 0.6851
+Mass: 0.7340
+Nodule: 0.6807
+Pneumonia: 0.6637
+Pneumothorax: 0.8016
+pelican03 ~/cs535/final_project/finalpj 1004$
